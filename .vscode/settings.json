@@ -1,0 +1,24 @@
+{
+    "beautify.language": {
+        "html": [
+            "htm", "html", "django-html"
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#660032",
+        "activityBar.activeBorder": "#3f8000",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#3f8000",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#330019",
+        "titleBar.inactiveBackground": "#33001999",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#330019",
+        "statusBarItem.hoverBackground": "#660032",
+        "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.remoteColor": "#330019",
+    "peacock.color": "#330019"
+}

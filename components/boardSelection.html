@@ -1,0 +1,12 @@
+<div class="home" ng-show="boardId === '' && userId !== ''">
+  <section>
+    <h1>My boards</h1>
+
+    <label for="selectedBoard">Select board</label>
+    <select id="selectedBoard" title="select a board" ng-model="selectedBoard">
+      <option ng-repeat="board in boards" value="{{board.boardId}}">{{board.boardName}}</option>
+    </select>
+    <button ng-show="boards.length > 0" ng-disabled="selectedBoard === undefined || selectedBoard === ''"
+      ng-click="selectBoard()">View board</button>
+  </section>
+</div>
