@@ -6,7 +6,8 @@
   "scripts": {
     "jshint": "jshint js/. --exclude js/vendor && stylelint stylesheets/*.scss",
     "deploy": "./deploy.sh",
-    "test": "karma start karma.conf.js --singleRun=true"
+    "test": "karma start karma.conf.js --singleRun=true",
+    "build": "npm run jshint && npm run test"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.5",

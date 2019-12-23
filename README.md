@@ -1,11 +1,6 @@
-# Retro
+# Retro Live
 
 Easy to use and beautiful restrospective board.
-
-[![Build Status](https://travis-ci.org/Lilanga/retro.svg?branch=master)](https://travis-ci.org/Lilanga/retro)
-[![Maintainability](https://api.codeclimate.com/v1/badges/48f83c0fd6822295411f/maintainability)](https://codeclimate.com/github/Lilanga/retro/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/48f83c0fd6822295411f/test_coverage)](https://codeclimate.com/github/Lilanga/retro/test_coverage)
-[![dependencies Status](https://david-dm.org/Lilanga/retro/status.svg)](https://david-dm.org/Lilanga/retro)
 
 ## How to setup local environment
 
@@ -28,7 +23,7 @@ var config = {
 firebase.initializeApp(config);
 ```
 
-5. The app uses firebase auth and creates a new user when you attempt to create a new board. So, once the app is running, head over to your firebase console `Authentication` section and enable auth using email & password. After change it should look like this [screenshot](https://drive.google.com/file/d/1u5qzuXeyERstqK0i6zR02uyP8ZdLK8ob/view?usp=sharing)
+5. The app uses firebase auth and creates a new user when you attempt to create a new board. So, once the app is running, head over to your firebase console `Authentication` section and enable auth using email & password.
 6. If you don't want to file to be tracked by git just run this command on the project home folder:
 
 ```
@@ -41,7 +36,7 @@ git update-index --assume-unchanged js/vendor/firebaseInitialization.js
 10. Run `gulp`
 11. Now you can open the app on [http://localhost:4000/](http://localhost:4000/) and start creating your boards.
 
-## Contribute to Retro
+## Contribute to Retro Live
 
 Take a look on our [Contributing](https://github.com/Lilanga/retro/blob/master/CONTRIBUTING.md) guide
 
